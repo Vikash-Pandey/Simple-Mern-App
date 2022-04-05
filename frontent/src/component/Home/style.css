@@ -1,0 +1,19 @@
+.homesection{
+    display: grid;
+    grid-template-columns: 350px auto;
+    margin: 50px 20px;
+}
+td{
+    cursor: pointer;
+}
+td i{
+    font-size: 20px;
+}
+img{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    object-fit: contain;
+}
